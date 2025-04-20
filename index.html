@@ -27,8 +27,8 @@
               <p style="text-align:center">
                 <name>Mingfei Chen</name>
               </p>
-              <p>I am a second-year Ph.D. student in the Electrical and Computer Engineering department at University of Washington, Seattle. Currently, I am a member of NeuroAI Lab advised by <a href="http://faculty.washington.edu/shlizee/">Prof. Eli Shlizerman</a>,
-                focusing on the audio-visual learning, as well as the related applications on LLMs, wearable devices and robotics. 
+              <p>I am a second-year Ph.D. student in the Electrical and Computer Engineering department at University of Washington, Seattle. Currently, I am a member of NeuroAI Lab advised by <a href="http://faculty.washington.edu/shlizee/">Prof. Eli Shlizerman</a>.
+                My current research interest is multi-modal research for spatial reasoning in 3D scenes, as well as the related applications on multi-modal LLMs and XR devices. 
               </p>
               <p>
                 Before that, I recieved my B.S. degree from the Computer Science and Technology department of Huazhong University of Science and Technology of China in 2020. I am also lucky to work with <a href="https://scholar.google.com/citations?user=w2HXPUUAAAAJ&hl=en">Prof. Chang Wen Chen</a> and <a href="https://cse.buffalo.edu/~jsyuan/">Prof. Junsong Yuan</a>,
@@ -40,7 +40,7 @@
                 and wonderful multi-modality research for XR in Meta Reality Labs.
               </p>
               
-              <!-- <p style="color:red;">I'm currently looking for research intern roles for Summer 2024!</p> -->
+              <p style="color:red;">I'm open to research collaboration. Please email me (lasiafly [at] uw.edu) if you are interested to explore more on multi-modal for spatial reasoning in 3D and XR together!</p>
 
               <p style="text-align:center">
                 <a href="mailto:lasiafly@uw.edu">Email</a> &nbsp/&nbsp
@@ -69,7 +69,7 @@
                   <table width="100%" align="center" border="0" cellpadding="20">
                     <tbody>
                       <tr>
-                        <p><li><b>[Mar. 2025]</b> One first-author paper on spatial audio-visual reconstruction <strong>got accepted by CVPR2025 as Highlight!</strong>!</li></p>
+                        <p><li><b>[Mar. 2025]</b> One first-author paper on spatial audio-visual reconstruction <strong>got accepted by CVPR2025 as Highlight! (acceptance rate < 2.9%)</strong>!</li></p>
                         <p><li><b>[Jan. 2025]</b> Will join Meta Reality Labs again in Redmond this summer, working on multi-modal LLMs for wearable devices!</li></p>
                         <p><li><b>[Sep. 2024]</b> One first-author paper on spatial audio-visual reconstruction <strong>got accepted by NeurIPS2024</strong>!</li></p>
                         <p><li><b>[Jun. 2024]</b> Join Meta Reality Labs in Pittsburgh (now XRCIA Social AI Research group) as a research scientist intern, working with Dr. <a href="https://scholar.google.it/citations?user=5RFgT84AAAAJ&hl=en">Israel D. Gebru</a> and Dr. <a href="https://alexanderrichard.github.io/">Alexander Richard</a>.</li></p>
@@ -110,6 +110,16 @@
             </td>
           </tr>
         </tbody></table>
+        <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
+          <tr>
+          <td style="padding:20px;width:100%;vertical-align:middle">
+            <h3>[1] Spatial Audio-Visual for 3D Scenes:</h3>
+            <!-- <p>
+              Representative papers are <span class="highlight">highlighted</span>. -->
+            <!-- </p> -->
+          </td>
+        </tr>
+      </tbody></table>
         <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
                   <!-- soundvista -->
                   <tr onmouseout="soundvista()" onmouseover="soundvista()"></tr>
@@ -261,7 +271,22 @@
 			          <p> We propose an Implicit Neural Representation for Audio Scenes, INRAS, for efficient representation of spatial audio fields with high fidelity.</p>
 			        </td>
 			      </tr>
-	      
+          </tbody></table>
+
+
+            <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
+              <tr>
+              <td style="padding:20px;width:100%;vertical-align:middle">
+                <h3>[2] 3D Vision:</h3>
+                <!-- <p>
+                  Representative papers are <span class="highlight">highlighted</span>
+                </p> -->
+              </td>
+            </tr>
+          </tbody></table>
+          
+          <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
+
           <!-- gp-nerf -->
             <tr onmouseout="gpnerf()" onmouseover="gpnerf()"></tr>
 			      <td style="padding:20px;width:25%;vertical-align:middle">
@@ -303,47 +328,21 @@
 			          <p> We develop a geometry-guided generalizable and efficient Neural Radiance Field (NeRF) pipeline for high-fidelity free-viewpoint human body synthesis under settings with sparse camera views.</p>
 			        </td>
 			      </tr>
+        
+          </tbody></table>
           
-         <!-- trmot -->
-                      <tr onmouseout="trmot_stop()" onmouseover="trmot_start()"></tr>
-                      <td style="padding:20px;width:25%;vertical-align:middle">
-                        <div class="one">
-                          <div class="two" id='trmot_image'>
-                            <img src='images/trmot_main.jpg' width="160"></div>
-                          <img src='images/trmot_main.jpg' width="160">
-                        </div>
-                        <script type="text/javascript">
-                          function trmot_start() {
-                            document.getElementById('trmot_image').style.opacity = "1";
-                          }
-          
-                          function trmot_stop() {
-                            document.getElementById('trmot_image').style.opacity = "0";
-                          }
-                          trmot_stop()
-                        </script>
-                      </td>
-                            <td style="padding:20px;width:75%;vertical-align:middle">
-                          <a href="https://arxiv.org/pdf/2203.16621.pdf">
-                            <papertitle>TR-MOT: Multi-Object Tracking by Reference</papertitle>
-                          </a>
-                          <br>
-                          <strong>Mingfei Chen</strong>,
-                          <a href="https://liaoyue.net/">Yue Liao</a>,
-                          <a href="http://colalab.org/">Si Liu</a>, 
-                          <a href="http://wangfei.info/">Fei Wang</a>,
-                          <a href="https://scholar.google.com/citations?user=4OAHy-kAAAAJ&hl=en">Jenq-Neng Hwang</a>
-                          <br>
-                    <em>arxiv preprint</em>, 2022
-                          <br>
-                          <a href="https://arxiv.org/pdf/2203.16621.pdf">arXiv</a>
-                    /
-                          <a href="data/trmot.bib">bibtex</a>
-                          <p></p>
-                          <p> We propose a novel Reference Search (RS) module to provide a more reliable association based on the deformable transformer structure, which is natural to learn the feature alignment for each object among frames.</p>
-                        </td>
-                      </tr>
+          <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
+            <tr>
+            <td style="padding:20px;width:100%;vertical-align:middle">
+              <h3>[3] Visual Relationship:</h3>
+              <!-- <p>
+                Representative papers are <span class="highlight">highlighted</span>
+              </p> -->
+            </td>
+          </tr>
+        </tbody></table>
 
+          <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
             <!-- hoi -->
             <tr onmouseout="hoi_stop()" onmouseover="hoi_start()"></tr>
             <td style="padding:20px;width:25%;vertical-align:middle">
@@ -389,6 +388,47 @@
 			        </td>
 			      </tr>
 
+         <!-- trmot -->
+                      <tr onmouseout="trmot_stop()" onmouseover="trmot_start()"></tr>
+                      <td style="padding:20px;width:25%;vertical-align:middle">
+                        <div class="one">
+                          <div class="two" id='trmot_image'>
+                            <img src='images/trmot_main.jpg' width="160"></div>
+                          <img src='images/trmot_main.jpg' width="160">
+                        </div>
+                        <script type="text/javascript">
+                          function trmot_start() {
+                            document.getElementById('trmot_image').style.opacity = "1";
+                          }
+          
+                          function trmot_stop() {
+                            document.getElementById('trmot_image').style.opacity = "0";
+                          }
+                          trmot_stop()
+                        </script>
+                      </td>
+                            <td style="padding:20px;width:75%;vertical-align:middle">
+                          <a href="https://arxiv.org/pdf/2203.16621.pdf">
+                            <papertitle>TR-MOT: Multi-Object Tracking by Reference</papertitle>
+                          </a>
+                          <br>
+                          <strong>Mingfei Chen</strong>,
+                          <a href="https://liaoyue.net/">Yue Liao</a>,
+                          <a href="http://colalab.org/">Si Liu</a>, 
+                          <a href="http://wangfei.info/">Fei Wang</a>,
+                          <a href="https://scholar.google.com/citations?user=4OAHy-kAAAAJ&hl=en">Jenq-Neng Hwang</a>
+                          <br>
+                    <em>arxiv preprint</em>, 2022
+                          <br>
+                          <a href="https://arxiv.org/pdf/2203.16621.pdf">arXiv</a>
+                    /
+                          <a href="data/trmot.bib">bibtex</a>
+                          <p></p>
+                          <p> We propose a novel Reference Search (RS) module to provide a more reliable association based on the deformable transformer structure, which is natural to learn the feature alignment for each object among frames.</p>
+                        </td>
+                      </tr>
+
+            </tbody></table>
 	
 	<table width="100%" align="center" border="0" cellspacing="0" cellpadding="20"><tbody>
           <tr>
@@ -397,7 +437,7 @@
               <table width="100%" align="center" border="0" cellpadding="20"><tbody>
                 <tr>
                    <p><li><b>[Spring 2022 TA]</b> UW EE 596: Introduction to Deep Learning Applications and Theory (<a href="https://canvas.uw.edu/courses/1547115">website</a>).</li></p>
-                   <p><li><b>[TA]</b> UW EE 497/498/596/598: Engineering Entrepreneurial Capstone (<a href="https://www.ece.uw.edu/news-events/capstone-fair/">website</a>).</li></p>
+                   <p><li><b>[Lead TA]</b> UW EE 497/498/596/598: Engineering Entrepreneurial Capstone (<a href="https://www.ece.uw.edu/news-events/capstone-fair/">website</a>).</li></p>
                   </tr>
               </table>
             </td>
@@ -429,6 +469,7 @@
               <heading>Awards & Honors</heading>
               <table width="100%" align="center" border="0" cellpadding="20"><tbody>
                 <tr>
+                  <p><li><b>[2023]</b> International Conference on Computer Vision Diversity, Equity & Inclusion (DEI) Award.</li></p> 
                    <p><li><b>[2020]</b> Huazhong University of Science and Technology Outstanding undergraduate graduation thesis.</li></p> 
                    <p><li><b>[2018, 2019]</b> Huazhong University of Science and Technology Merit Student Scholarship.</li></p> 
                    <p><li><b>[2018]</b> Meritorious Winner of Mathematical Contest In Modeling (MCM/ICM).</li></p> 
